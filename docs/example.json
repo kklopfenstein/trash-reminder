@@ -1,0 +1,448 @@
+{
+    "zones": {
+        "1659": {
+            "line_colour": "#ff99ce",
+            "link_uri": {},
+            "title": "Columbus Trash Pink",
+            "link_text": {},
+            "priority": 0,
+            "has_parcels": 1,
+            "is_empty": 0,
+            "name": "columbus-garbage-pink",
+            "service_id": 237,
+            "pdf_uri": {},
+            "colour_name": "columbus-garbage-pink",
+            "poly_colour": "#ff99ce",
+            "loc_title": {
+                "en": "Columbus Trash Pink"
+            },
+            "has_geom": 0,
+            "show_when_empty": 0,
+            "has_unapproved_future_events": 0,
+            "description": {},
+            "opts": {},
+            "id": 1659
+        },
+        "1915": {
+            "colour_name": "columbus-2014-recycle-thursday-a",
+            "show_when_empty": 0,
+            "has_geom": 0,
+            "loc_title": {
+                "en": "Columbus Recycle Thursday A"
+            },
+            "poly_colour": "rgba(255,255,255,153)",
+            "has_unapproved_future_events": 0,
+            "opts": {},
+            "description": {},
+            "id": 1915,
+            "title": "Columbus Recycle Thursday A",
+            "link_uri": {},
+            "line_colour": "rgba(255,255,255,255)",
+            "priority": 0,
+            "link_text": {},
+            "has_parcels": 1,
+            "service_id": 237,
+            "name": "columbus-2014-recycle-thursday-a",
+            "is_empty": 0,
+            "pdf_uri": {}
+        },
+        "1916": {
+            "has_unapproved_future_events": 0,
+            "show_when_empty": 0,
+            "has_geom": 0,
+            "poly_colour": "rgba(255,255,255,153)",
+            "loc_title": {
+                "en": "Columbus Yard Waste Thursday A"
+            },
+            "colour_name": "columbus-2014-yardwaste-thursday-a",
+            "id": 1916,
+            "opts": {},
+            "description": {},
+            "link_text": {},
+            "priority": 0,
+            "title": "Columbus Yard Waste Thursday A",
+            "link_uri": {},
+            "line_colour": "rgba(255,255,255,255)",
+            "pdf_uri": {},
+            "service_id": 237,
+            "is_empty": 0,
+            "name": "columbus-2014-yardwaste-thursday-a",
+            "has_parcels": 1
+        }
+    },
+    "parcel_opts": {},
+    "events": [
+        {
+            "day": "2023-01-02",
+            "id": 18643304,
+            "custom_subject": "",
+            "end_day": "2023-01-02",
+            "opts": {},
+            "flags": [
+                {
+                    "plain_text_message": null,
+                    "icon_uri_fragment": "0,0,0/no",
+                    "name": "Notrashcollection",
+                    "voice_message": null,
+                    "icon": "no:rgb(0,0,0)",
+                    "opts": {
+                        "event_type": "notification_with_date"
+                    },
+                    "id": 14141,
+                    "html_message": "<p>Today the City of Columbus is observing a holiday.</p>",
+                    "color": "#000000",
+                    "subject": "No Trash Collection",
+                    "event_type": "notification_with_date",
+                    "is_week_long": 0,
+                    "backgroundColor": "#000000",
+                    "service_name": "waste",
+                    "area_name": "Columbus",
+                    "sort_order": 4,
+                    "borderColor": "#5FAE47",
+                    "short_text_message": null
+                },
+                {
+                    "id": 14141,
+                    "html_message": "<p>Today the City of Columbus is observing a holiday.</p>",
+                    "color": "#000000",
+                    "opts": {
+                        "event_type": "notification_with_date"
+                    },
+                    "icon": "no:rgb(0,0,0)",
+                    "voice_message": null,
+                    "short_text_message": null,
+                    "borderColor": "#5FAE47",
+                    "service_name": "waste",
+                    "area_name": "Columbus",
+                    "sort_order": 4,
+                    "event_id": 18643313,
+                    "is_week_long": 0,
+                    "subject": "No Trash Collection",
+                    "event_type": "notification_with_date",
+                    "backgroundColor": "#000000",
+                    "name": "Notrashcollection",
+                    "plain_text_message": null,
+                    "icon_uri_fragment": "0,0,0/no",
+                    "zone_id": 1915
+                },
+                {
+                    "opts": {
+                        "event_type": "notification_with_date"
+                    },
+                    "html_message": "<p>Today the City of Columbus is observing a holiday.</p>",
+                    "id": 14141,
+                    "color": "#000000",
+                    "voice_message": null,
+                    "icon": "no:rgb(0,0,0)",
+                    "borderColor": "#5FAE47",
+                    "short_text_message": null,
+                    "event_id": 18643254,
+                    "event_type": "notification_with_date",
+                    "subject": "No Trash Collection",
+                    "is_week_long": 0,
+                    "backgroundColor": "#000000",
+                    "service_name": "waste",
+                    "area_name": "Columbus",
+                    "sort_order": 4,
+                    "name": "Notrashcollection",
+                    "plain_text_message": null,
+                    "icon_uri_fragment": "0,0,0/no",
+                    "zone_id": 1916
+                }
+            ],
+            "zone_id": 1659,
+            "custom_message": "",
+            "options": {},
+            "is_approved": 1
+        },
+        {
+            "id": 18586127,
+            "end_day": "2023-01-06",
+            "custom_subject": "",
+            "opts": {},
+            "day": "2023-01-06",
+            "custom_message": "",
+            "is_approved": 1,
+            "options": {},
+            "flags": [
+                {
+                    "short_text_message": null,
+                    "sort_order": 2,
+                    "service_name": "waste",
+                    "area_name": "Columbus",
+                    "backgroundColor": "",
+                    "subject": "Trash",
+                    "is_week_long": 0,
+                    "event_type": "pickup",
+                    "color": "",
+                    "html_message": "Trash must be bagged and tied before you place it in your container.  Place your container at your designated collection point before 6:00 a.m. <a target=\"_blank\" href=\"http://rco.io/5Y3G9\">Click here for more information</a>",
+                    "id": 151,
+                    "opts": {
+                        "event_type": "pickup"
+                    },
+                    "icon": "garbage",
+                    "voice_message": null,
+                    "name": "garbage",
+                    "plain_text_message": null,
+                    "icon_uri_fragment": "garbage"
+                }
+            ],
+            "zone_id": 1659
+        },
+        {
+            "options": {},
+            "is_approved": 1,
+            "custom_message": "",
+            "zone_id": 1915,
+            "flags": [
+                {
+                    "name": "recycling",
+                    "plain_text_message": null,
+                    "icon_uri_fragment": "26,56,163/recycle",
+                    "opts": {},
+                    "color": "#1a38a3",
+                    "id": 162,
+                    "html_message": "<p>Here&#39;s what goes in the blue cart: Aluminum and steel cans - and lids. Flattened cardboard and pizza boxes (free of food and grease). Plastic bottles/jugs/tubs(butter, yogurt, deli, ice cream, dipping). Newspaper, magazines, catalogs, junk mail, computer paper, cereal and other dry food boxes and phone books. Glass bottles and jars. Cartons and juice boxes. <a target=\"_blank\" href=\"http://rco.io/Z07KH\" target=\"_blank\">Click here for more information</a></p>",
+                    "voice_message": null,
+                    "icon": "recycle:rgb(26,56,163)",
+                    "borderColor": "#1a38a3",
+                    "short_text_message": null,
+                    "backgroundColor": "#1a38a3",
+                    "subject": "Recycling",
+                    "event_type": "pickup",
+                    "is_week_long": 0,
+                    "sort_order": 1,
+                    "area_name": "Columbus",
+                    "service_name": "waste"
+                },
+                {
+                    "zone_id": 1916,
+                    "plain_text_message": null,
+                    "icon_uri_fragment": "87,80,19/leaf",
+                    "name": "yardtrimmings",
+                    "service_name": "waste",
+                    "area_name": "Columbus",
+                    "sort_order": 3,
+                    "event_id": 18639714,
+                    "event_type": "pickup",
+                    "is_week_long": 0,
+                    "subject": "Yard Waste",
+                    "backgroundColor": "#575013",
+                    "short_text_message": null,
+                    "borderColor": "#575013",
+                    "icon": "leaf:rgb(87,80,19)",
+                    "voice_message": null,
+                    "html_message": "Yard Waste includes:\n   •  Grass clippings\n   •  Leaves\n   •  Twigs\n   •  Branches\n   •  Shrubbery.\nPlace yard waste in biodegradable (paper) bags or rigid containers marked \"Yard Waste\". <a target=\"_blank\" href=\"http://rco.io/UGASS\">Click here for more information</a>",
+                    "id": 152,
+                    "color": "#575013",
+                    "opts": {}
+                }
+            ],
+            "custom_subject": "",
+            "end_day": "2023-01-12",
+            "opts": {},
+            "id": 18587238,
+            "day": "2023-01-12"
+        },
+        {
+            "custom_message": "",
+            "options": {},
+            "is_approved": 1,
+            "flags": [
+                {
+                    "name": "garbage",
+                    "icon_uri_fragment": "garbage",
+                    "plain_text_message": null,
+                    "color": "",
+                    "html_message": "Trash must be bagged and tied before you place it in your container.  Place your container at your designated collection point before 6:00 a.m. <a target=\"_blank\" href=\"http://rco.io/5Y3G9\">Click here for more information</a>",
+                    "id": 151,
+                    "opts": {
+                        "event_type": "pickup"
+                    },
+                    "icon": "garbage",
+                    "voice_message": null,
+                    "short_text_message": null,
+                    "sort_order": 2,
+                    "service_name": "waste",
+                    "area_name": "Columbus",
+                    "backgroundColor": "",
+                    "is_week_long": 0,
+                    "subject": "Trash",
+                    "event_type": "pickup"
+                }
+            ],
+            "zone_id": 1659,
+            "id": 18586128,
+            "opts": {},
+            "custom_subject": "",
+            "end_day": "2023-01-13",
+            "day": "2023-01-13"
+        },
+        {
+            "day": "2023-01-16",
+            "title": "Holiday",
+            "flags": [
+                {
+                    "plain_text_message_hash": {
+                        "en-US": null,
+                        "en-GB": null
+                    },
+                    "plain_text_message": null,
+                    "name": "holiday",
+                    "pattern": "",
+                    "subject_hash": {
+                        "en-US": "Martin Luther King Jr. Day",
+                        "en-GB": null
+                    },
+                    "short_text_message_hash": {
+                        "en-US": null,
+                        "en-GB": null
+                    },
+                    "voice_message_hash": {
+                        "en-US": null,
+                        "en-GB": null
+                    },
+                    "voice_message": null,
+                    "icon": "",
+                    "html_message": null,
+                    "subject": "Martin Luther King Jr. Day",
+                    "backgroundColor": "#571B7E",
+                    "textColor": "#FFFFFF",
+                    "borderColor": "#000000",
+                    "short_text_message": null,
+                    "html_message_hash": {
+                        "en-US": null,
+                        "en-GB": null
+                    }
+                }
+            ],
+            "end_day": "2023-01-16",
+            "type": "holiday",
+            "is_holiday": 1,
+            "id": 756458
+        },
+        {
+            "zone_id": 1659,
+            "flags": [
+                {
+                    "name": "garbage",
+                    "icon_uri_fragment": "garbage",
+                    "plain_text_message": null,
+                    "color": "",
+                    "id": 151,
+                    "html_message": "Trash must be bagged and tied before you place it in your container.  Place your container at your designated collection point before 6:00 a.m. <a target=\"_blank\" href=\"http://rco.io/5Y3G9\">Click here for more information</a>",
+                    "opts": {
+                        "event_type": "pickup"
+                    },
+                    "icon": "garbage",
+                    "voice_message": null,
+                    "short_text_message": null,
+                    "sort_order": 2,
+                    "service_name": "waste",
+                    "area_name": "Columbus",
+                    "backgroundColor": "",
+                    "subject": "Trash",
+                    "event_type": "pickup",
+                    "is_week_long": 0
+                }
+            ],
+            "is_approved": 1,
+            "options": {},
+            "custom_message": "",
+            "day": "2023-01-23",
+            "end_day": "2023-01-23",
+            "custom_subject": "",
+            "opts": {},
+            "id": 18586129
+        },
+        {
+            "custom_message": "",
+            "is_approved": 1,
+            "options": {},
+            "flags": [
+                {
+                    "icon": "recycle:rgb(26,56,163)",
+                    "voice_message": null,
+                    "color": "#1a38a3",
+                    "id": 162,
+                    "html_message": "<p>Here&#39;s what goes in the blue cart: Aluminum and steel cans - and lids. Flattened cardboard and pizza boxes (free of food and grease). Plastic bottles/jugs/tubs(butter, yogurt, deli, ice cream, dipping). Newspaper, magazines, catalogs, junk mail, computer paper, cereal and other dry food boxes and phone books. Glass bottles and jars. Cartons and juice boxes. <a target=\"_blank\" href=\"http://rco.io/Z07KH\" target=\"_blank\">Click here for more information</a></p>",
+                    "opts": {},
+                    "sort_order": 1,
+                    "service_name": "waste",
+                    "area_name": "Columbus",
+                    "backgroundColor": "#1a38a3",
+                    "event_type": "pickup",
+                    "subject": "Recycling",
+                    "is_week_long": 0,
+                    "short_text_message": null,
+                    "borderColor": "#1a38a3",
+                    "plain_text_message": null,
+                    "icon_uri_fragment": "26,56,163/recycle",
+                    "name": "recycling"
+                },
+                {
+                    "zone_id": 1916,
+                    "name": "yardtrimmings",
+                    "icon_uri_fragment": "87,80,19/leaf",
+                    "plain_text_message": null,
+                    "borderColor": "#575013",
+                    "short_text_message": null,
+                    "event_id": 18639715,
+                    "subject": "Yard Waste",
+                    "event_type": "pickup",
+                    "is_week_long": 0,
+                    "backgroundColor": "#575013",
+                    "area_name": "Columbus",
+                    "service_name": "waste",
+                    "sort_order": 3,
+                    "opts": {},
+                    "id": 152,
+                    "html_message": "Yard Waste includes:\n   •  Grass clippings\n   •  Leaves\n   •  Twigs\n   •  Branches\n   •  Shrubbery.\nPlace yard waste in biodegradable (paper) bags or rigid containers marked \"Yard Waste\". <a target=\"_blank\" href=\"http://rco.io/UGASS\">Click here for more information</a>",
+                    "color": "#575013",
+                    "voice_message": null,
+                    "icon": "leaf:rgb(87,80,19)"
+                }
+            ],
+            "zone_id": 1915,
+            "id": 18587239,
+            "opts": {},
+            "end_day": "2023-01-26",
+            "custom_subject": "",
+            "day": "2023-01-26"
+        },
+        {
+            "options": {},
+            "is_approved": 1,
+            "custom_message": "",
+            "zone_id": 1659,
+            "flags": [
+                {
+                    "opts": {
+                        "event_type": "pickup"
+                    },
+                    "color": "",
+                    "id": 151,
+                    "html_message": "Trash must be bagged and tied before you place it in your container.  Place your container at your designated collection point before 6:00 a.m. <a target=\"_blank\" href=\"http://rco.io/5Y3G9\">Click here for more information</a>",
+                    "voice_message": null,
+                    "icon": "garbage",
+                    "short_text_message": null,
+                    "backgroundColor": "",
+                    "event_type": "pickup",
+                    "subject": "Trash",
+                    "is_week_long": 0,
+                    "sort_order": 2,
+                    "service_name": "waste",
+                    "area_name": "Columbus",
+                    "name": "garbage",
+                    "icon_uri_fragment": "garbage",
+                    "plain_text_message": null
+                }
+            ],
+            "custom_subject": "",
+            "end_day": "2023-01-30",
+            "opts": {},
+            "id": 18586130,
+            "day": "2023-01-30"
+        }
+    ]
+}
