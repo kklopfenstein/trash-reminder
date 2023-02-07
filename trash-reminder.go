@@ -68,7 +68,7 @@ func main() {
 				log.Fatalf("Could not parse date %s", event.Day)
 			}
 			dur := t.Sub(time.Now())
-			log.Printf("Diff in days is %f", dur.Hours())
+			log.Printf("Diff in hours is %f", dur.Hours())
 			if dur.Hours() < 24 && dur.Hours() > 0 {
 				message = append(message, fmt.Sprintf("%s collection today!", toReadableName(flag.Name)))
 			}
