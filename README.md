@@ -2,10 +2,16 @@
 
 A golang program that sends a Discord message to a  user the day before collection.
 
+## Installation
+
+```
+go install github.com/kklopfenstein/trash-reminder@latest
+```
+
 ## Usage
 
 ```
-./trash-reminder --place <RECOLLECT PLACE> --service <RECOLLECT SERVICE> --discordUserId <DISCORD USER ID> --discordToken <DISCORD TOKEN>
+trash-reminder --place <RECOLLECT PLACE> --service <RECOLLECT SERVICE> --discordUserId <DISCORD USER ID> --discordToken <DISCORD TOKEN>
 ```
 
 This program is best used as a daily cron job.
